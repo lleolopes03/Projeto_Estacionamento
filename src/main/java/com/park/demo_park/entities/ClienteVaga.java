@@ -60,7 +60,6 @@ public class ClienteVaga {
     @LastModifiedBy
     @Column(name = "modificado_por")
     private String modificadoPor;
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
